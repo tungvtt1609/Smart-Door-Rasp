@@ -119,7 +119,7 @@ while True:
 		# draw the predicted face name on the image – color is in BGR
 		cv2.rectangle(frame, (left, top), (right, bottom),
 			(0, 255, 0), 2)
-		y = top – 15 if top – 15 > 15 else top + 15
+		y = top - 15 if top - 15 > 15 else top + 15
 		cv2.putText(frame, name, (left, y), cv2.FONT_HERSHEY_SIMPLEX,
 			.8, (255, 0, 0), 2)
 
