@@ -1,10 +1,10 @@
 import cv2
 
 #Input your name
-name = input("Nhập tên của bạn: ")
+name = 'Tung'
 
 cam = cv2.VideoCapture(0)
-cv2.nameWindow("Vui lòng nhấn space để chụp ảnh", cv2.WINDOW_NORMAL)
+cv2.namedWindow("Vui lòng nhấn space để chụp ảnh", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("Vui lòng nhấn space để tiếp tục", 500, 300)
 
 img_counter = 0
