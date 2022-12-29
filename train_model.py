@@ -1,5 +1,4 @@
-from pyexpat import model
-import imutils import paths
+from imutils import paths
 import face_recognition
 import pickle
 import cv2
