@@ -10,7 +10,7 @@ import time
 import cv2
 import RPi.GPIO as GPIO
 
-RELAY = 17
+RELAY = 27
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(RELAY, GPIO.OUT)
